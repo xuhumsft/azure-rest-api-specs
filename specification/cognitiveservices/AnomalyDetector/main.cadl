@@ -7,7 +7,6 @@ using Cadl.Rest;
 using Cadl.Http;
 using Cadl.Versioning;
 
-
 @versioned(APIVersion)
 @service({title: "Anomaly Detector"})
 @useAuth(ApiKeyAuth<ApiKeyLocation.header, "Ocp-Apim-Subscription-Key">)
